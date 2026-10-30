@@ -4,7 +4,7 @@
 
 ## Использование и скачивание
 
-Скачайте `dist/LinuxLab.html` через кнопку **Download raw file** в GitHub и откройте в современном браузере. Изображения, шрифт Onest и код встроены; Интернет для курса не нужен. В отдельных управляемых браузерах `file://` может запрещаться политикой — используйте статический веб-сервер.
+Скачайте [LinuxLab.zip](https://raw.githubusercontent.com/lukashevas1984-hub/linuxplatform/main/dist/LinuxLab.zip). В архиве только один файл — `LinuxLab.html`. На Mac откройте ZIP двойным щелчком, затем откройте извлечённый HTML в браузере. Изображения, шрифт Onest и код встроены; Интернет для курса не нужен. Прямая ссылка на исходный HTML в GitHub показывает код, поэтому для скачивания используйте ZIP.
 
 - `dist/LinuxLab-project.zip` — исходники, исходный HTML, тесты и документация.
 - `dist/LinuxLab-VPS.zip` — `index.html`, Docker Compose и инструкция VPS.

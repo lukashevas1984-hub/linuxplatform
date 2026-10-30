@@ -19,6 +19,9 @@ def build():
     license=(ROOT/'assets/fonts/OFL.txt').read_text()
     text=text.replace('</head>','<script type="text/plain" id="font-license">\n'+license+'\n</script>\n</head>')
     for name in ['LinuxLab.html','LinuxLab-course.html']:(out/name).write_text(text)
+    # A ZIP downloads in browsers instead of displaying the raw HTML source.
+    with zipfile.ZipFile(out/'LinuxLab.zip','w',zipfile.ZIP_DEFLATED) as z:
+        z.write(out/'LinuxLab.html','LinuxLab.html')
     vps=out/'linuxlab-vps';vps.mkdir(exist_ok=True);vps.chmod(0o755)
     (vps/'index.html').write_text(text)
     for name in ['compose.yaml','README-VPS.md']:(vps/name).write_bytes((ROOT/'deploy'/name).read_bytes())
