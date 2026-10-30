@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="theme-color" content="#17191f">
+ <title>LinuxLab — научиться разбираться</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="redesign.css">
+ <link rel="stylesheet" href="semantics.css">
+ <link rel="stylesheet" href="course-ui.css">
+
+</head>
+<body>
+ <noscript><div class="storage-warning">Для интерактивных заданий нужен JavaScript. Открой HTML в обычной вкладке современного браузера.</div></noscript>
+ <a class="skip" href="#main">К содержанию</a>
+ <aside class="sidebar" id="sidebar">
+  <a class="brand" href="#home"><span class="brand-mark">L<span>_</span></span><span>linux<span class="brand-light">lab</span><small>ИНЖЕНЕРНОЕ МЫШЛЕНИЕ</small></span></a>
+  <div class="workspace-label">ТВОЯ РАБОЧАЯ СРЕДА <span class="online-dot"></span></div>
+  <nav aria-label="Основная навигация" id="nav">
+   <a href="#home" data-nav="home"><span>◫</span>Обзор<span class="nav-key">01</span></a>
+   <a href="#path" data-nav="path"><span>⌁</span>Программа<span class="nav-key">02</span></a>
+   <a href="#labs" data-nav="labs"><span>⌘</span>Лаборатории<span class="nav-key">03</span></a>
+   <a href="#knowledge" data-nav="knowledge"><span>▤</span>База знаний<span class="nav-key">04</span></a>
+   <a href="#atlas" data-nav="atlas"><span>⊞</span>Атлас связей<span class="nav-key">05</span></a>
+   <a href="#terms" data-nav="terms"><span>Aа</span>Слова и цвета<span class="nav-key">EN</span></a>
+   <a href="#sources" data-nav="sources"><span>↗</span>Источники</a>
+   <a href="#journal" data-nav="journal"><span>✎</span>Журнал инженера<span class="nav-key">06</span></a>
+   <a href="#review" data-nav="review"><span>⟳</span>Повторение<span class="nav-key">07</span></a>
+  </nav>
+  <div class="sidebar-exam"><span class="tiny-label">ПРОВЕРЬ СЕБЯ</span><h3>Твоя первая смена</h3><p>3 инцидента. 45 минут.<br>Без подсказок.</p><a href="#exam">Принять дежурство <span>→</span></a></div>
+  <div class="sidebar-bottom"><div class="local-badge"><span class="online-dot"></span> Прогресс в этом браузере</div><button id="export-side" class="subtle-button">↓ Сохранить прогресс</button><small>Автономно · без аккаунта · без API</small></div>
+ </aside>
+ <div class="shell">
+  <header class="topbar"><button class="mobile-toggle icon-button" id="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button><div class="breadcrumb" id="breadcrumb">Рабочая среда <span>/</span> Обзор</div><div class="top-actions"><button class="search-button" id="search-open"><span>⌕</span><span>Найти тему или задачу</span><kbd>Ctrl K</kbd></button><button class="reader-open" id="reader-open" aria-label="Настроить фон, шрифт и размер текста"><b>Aa</b><span>Вид</span></button><span class="avatar" title="Локальный профиль">ты</span></div></header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="footer"><span>linuxlab <b> / </b> учись задавать правильные вопросы.</span><span>Учебный симулятор · не настоящий Linux</span></footer>
+ </div>
+ <dialog id="modal"><div id="modal-content"></div></dialog>
+ <div id="toast" role="status" aria-live="polite"></div>
+ <input id="import-file" type="file" accept="application/json,.json" hidden>
+ <script src="course.js"></script><script src="curriculum.js"></script><script src="cheatsheet-lessons.js"></script><script src="text-tools.js"></script><script src="engine.js"></script><script src="study-engine.js"></script><script src="semantics.js"></script><script src="visuals.js"></script><script src="reader.js"></script><script src="learning.js"></script><script src="app.js"></script>
+</body>
+</html>

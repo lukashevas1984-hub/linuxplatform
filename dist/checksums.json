@@ -1,0 +1,18 @@
+{
+  "LinuxLab-VPS.zip": {
+    "bytes": 281695,
+    "sha256": "aa2a448539c036d4aac3e2da1046c65ad3551ca2629f744e6bd981d44b7adedb"
+  },
+  "LinuxLab.html": {
+    "bytes": 794489,
+    "sha256": "60f1845bab60d1686b96318508a306c6b31b236ade9deb1eaf6d17e970a9a9b8"
+  },
+  "LinuxLab-project.zip": {
+    "bytes": 728583,
+    "sha256": "0cc2c46c4d5f47cd2dacd97bf96f34af376fe99c9675766ca77e3d14747adbdb"
+  },
+  "LinuxLab-course.html": {
+    "bytes": 794489,
+    "sha256": "60f1845bab60d1686b96318508a306c6b31b236ade9deb1eaf6d17e970a9a9b8"
+  }
+}

@@ -1,0 +1,14 @@
+test_01_new_learner_and_gates (__main__.BrowserTests.test_01_new_learner_and_gates) ... ok
+test_02_all_54_lessons_and_12_guides_from_zero (__main__.BrowserTests.test_02_all_54_lessons_and_12_guides_from_zero) ... ok
+test_03_new_labs_terminal_result_and_quiz (__main__.BrowserTests.test_03_new_labs_terminal_result_and_quiz) ... ok
+test_04_links_independent_and_no_progress_side_effect (__main__.BrowserTests.test_04_links_independent_and_no_progress_side_effect) ... ok
+test_05_export_import_and_legacy (__main__.BrowserTests.test_05_export_import_and_legacy) ... ok
+test_06_exam_reload_expiry_and_no_hints (__main__.BrowserTests.test_06_exam_reload_expiry_and_no_hints) ... ok
+test_07_layout_and_reader_settings (__main__.BrowserTests.test_07_layout_and_reader_settings) ... ok
+test_08_unavailable_storage_keeps_export (__main__.BrowserTests.test_08_unavailable_storage_keeps_export) ... ok
+test_09_local_file_runs_without_network (__main__.BrowserTests.test_09_local_file_runs_without_network) ... skipped 'Host browser policy blocks file://; identical artifact tested through intercepted HTTPS without network'
+
+----------------------------------------------------------------------
+Ran 9 tests in 93.748s
+
+OK (skipped=1)

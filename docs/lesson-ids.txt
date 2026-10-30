@@ -1,0 +1,54 @@
+foundation-system	Модель системы
+foundation-terminal	Потоки и коды возврата
+foundation-paths	Ориентироваться, а не угадывать
+foundation-lookup	Как оболочка находит команду
+foundation-patterns	Имена файлов, строки и кавычки
+foundation-applications	Редактирование
+permissions-access	Как ядро проверяет доступ
+permissions-identity	Пользователи и группы
+permissions-creation	Права при создании и общие каталоги
+permissions-beyond	ACL и атрибуты
+processes-signals	Процесс и сигнал
+processes-load	Load average не равен CPU
+processes-memory	Память и фоновые задачи
+processes-inspection	Процесс изнутри: /proc и PSI
+systemd-boot	Цепочка загрузки
+systemd-units	Units и зависимости
+systemd-lifecycle	Перечитать, запустить, включить
+systemd-recovery	Восстановление загрузки
+systemd-overrides	Drop-in и эффективный unit
+storage-filesystems	Выбор и устройство ФС
+storage-links	Имя, inode и открытый файл
+storage-space	Блоки отдельно, inode отдельно
+storage-mount	Разделы и mount
+storage-lvm	LVM и производительность
+storage-redundancy	RAID, snapshot и backup
+network-layers	Разделяй причины
+network-routing	Адреса и маршруты
+network-dns	DNS и привязка сокетов
+network-tls	TLS после TCP: имя, SNI и измерения
+network-filtering	Firewall
+security-ssh	SSH: сначала доступ, затем hardening
+security-validation	Применяй проверяемо
+security-audit	Аудит и минимальный доступ
+security-privileges	Root, capabilities и MAC
+delivery-packages	Пакет — не случайный бинарник
+delivery-containers	Контейнер не виртуальная машина
+delivery-resource-boundary	Namespaces и cgroups: разные границы
+delivery-diagnosis	Сеть и диагностика Docker
+observability-text-pipelines	Текстовый конвейер как проверяемая модель
+observability-events	Журнал — события, метрики — динамика
+observability-hypotheses	Мониторинг по гипотезам
+observability-signals	Полезные сигналы
+automation-bash	Надёжный Bash
+automation-backups	Backup считается рабочим после restore
+automation-robustness	Надёжные границы Bash
+automation-scheduling	Cron и systemd timers
+automation-configuration	Ansible и CI
+recovery-restore	Восстановление с контролем риска
+recovery-transfer	rsync: путь, метаданные и согласованность
+recovery-limits	Параметры ядра
+recovery-tuning	Оптимизация — эксперимент
+incident-diagnosis	Рабочий цикл инженера
+incident-readiness	Готовность к Middle
+incident-postmortem	Разбор и профилактика

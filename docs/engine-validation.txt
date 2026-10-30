@@ -1,0 +1,18 @@
+✔ curriculum counts, stable original lab IDs and known lesson IDs (0.852182ms)
+✔ all 12 drills and 12 guides accept their actual outputs (7.155296ms)
+✔ original terminal solutions still satisfy state checks (2.720349ms)
+✔ HTTP summary uses file contents, preserves source, reads report (0.363338ms)
+✔ config proposal requires actual correct diff, exact candidate and intact source (0.651745ms)
+✔ diff status: identical 0, changed 1, missing 2 (0.346793ms)
+✔ grep fixed mode and no matches retain correct status (0.255027ms)
+✔ lookup respects supported commands and package absence (0.221328ms)
+✔ awk and sed reject arbitrary programs and inplace changes (0.243721ms)
+✔ tee append, cut fields, wc newline semantics (0.410178ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18.856805

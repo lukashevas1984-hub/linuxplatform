@@ -1,0 +1,37 @@
+{
+  "file": "LinuxLab.html",
+  "bytes": 588541,
+  "sha256": "0422e28285fa99c62afc223e76d0bf64254e1be5ccc912ce8df2dbd461a29ba5",
+  "scripts": [
+    {
+      "file": "course.js",
+      "characters": 40873
+    },
+    {
+      "file": "engine.js",
+      "characters": 35575
+    },
+    {
+      "file": "semantics.js",
+      "characters": 20252
+    },
+    {
+      "file": "visuals.js",
+      "characters": 35177
+    },
+    {
+      "file": "reader.js",
+      "characters": 4302
+    },
+    {
+      "file": "app.js",
+      "characters": 52488
+    }
+  ],
+  "styles": [
+    "style.css",
+    "redesign.css",
+    "semantics.css"
+  ],
+  "external_runtime_resources": []
+}
